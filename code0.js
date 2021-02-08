@@ -37,7 +37,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegin
 }if (gdjs.GameCode.condition0IsTrue_0.val) {
 {runtimeScene.getVariables().get("speed").setNumber(4);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "difficultyTimer");
-}{gdjs.evtTools.sound.playMusic(runtimeScene, "s-highway.mp3", true, 20, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "s-highway.mp3", 1, true, 20, 1);
 }}
 
 }
@@ -221,6 +221,19 @@ gdjs.copyArray(runtimeScene.getObjects("floor_spawner"), gdjs.GameCode.GDfloor_9
 {for(var i = 0, len = gdjs.GameCode.GDhighwayObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDhighwayObjects1[i].setX((( gdjs.GameCode.GDfloor_95spawnerObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDfloor_95spawnerObjects1[0].getX()));
 }
+}}
+
+}
+
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "m");
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }}
 
 }

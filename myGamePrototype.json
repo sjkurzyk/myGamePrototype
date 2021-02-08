@@ -1033,11 +1033,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlayMusic"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
                 "s-highway.mp3",
+                "1",
                 "yes",
                 "20",
                 ""
@@ -1369,6 +1370,38 @@
                 "highway",
                 "=",
                 "floor_spawner.X()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "m"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ],
               "subInstructions": []
             }
