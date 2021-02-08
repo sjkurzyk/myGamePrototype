@@ -641,6 +641,20 @@
         "name": "assets\\JUMP\\Anim_Jump_Frame_0009_10.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/s-highway.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\s-highway.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Race-to-Mars.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Race-to-Mars.ogg",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -718,14 +732,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 156,
+          "height": 135,
           "layer": "",
           "locked": false,
           "name": "Player",
           "persistentUuid": "2fd63782-1ed0-46dc-903e-289eeae9cf5f",
-          "width": 156,
-          "x": 46,
-          "y": 235,
+          "width": 135,
+          "x": 35,
+          "y": 188,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -935,11 +949,6 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 0
-            },
-            {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": false,
@@ -958,16 +967,11 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 0
-            },
-            {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0,
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform"
+              "canBeGrabbed": false
             }
           ]
         },
@@ -1033,11 +1037,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1069,11 +1073,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1105,11 +1109,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1141,11 +1145,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1177,11 +1181,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1213,11 +1217,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1249,11 +1253,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1285,11 +1289,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1333,11 +1337,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1369,11 +1373,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1405,11 +1409,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1441,11 +1445,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1477,11 +1481,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1513,11 +1517,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1549,11 +1553,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1585,11 +1589,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1621,11 +1625,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1657,11 +1661,11 @@
                           },
                           {
                             "x": 64,
-                            "y": 55
+                            "y": 53
                           },
                           {
                             "x": 0,
-                            "y": 55
+                            "y": 53
                           }
                         ]
                       ]
@@ -1797,10 +1801,10 @@
               },
               "parameters": [
                 "",
-                "s-highway.mp3",
+                "assets\\Race-to-Mars.ogg",
                 "1",
                 "yes",
-                "20",
+                "10",
                 ""
               ],
               "subInstructions": []
