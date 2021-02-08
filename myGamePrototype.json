@@ -18,7 +18,7 @@
     "version": "1.0.0",
     "name": "Project",
     "author": "",
-    "windowWidth": 800,
+    "windowWidth": 750,
     "windowHeight": 600,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
@@ -441,7 +441,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.4
+        "zoomFactor": 0.43
       },
       "objectsGroups": [],
       "variables": [],
@@ -454,8 +454,8 @@
           "locked": false,
           "name": "highway",
           "persistentUuid": "98f903b4-1f77-44fe-b2ae-54c196ff0be3",
-          "width": 127,
-          "x": 1,
+          "width": 125,
+          "x": 0,
           "y": 303,
           "zOrder": 1,
           "numberProperties": [],
@@ -480,38 +480,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "highway",
-          "persistentUuid": "9014e0c4-9f9e-4a94-a963-0e0167ac3cf7",
-          "width": 0,
-          "x": 127,
-          "y": 303,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "highway",
-          "persistentUuid": "c01eb9a4-a132-4e13-8f77-51e2707e4514",
-          "width": 0,
-          "x": 254,
-          "y": 303,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 628,
           "layer": "background",
@@ -519,8 +487,8 @@
           "name": "background",
           "persistentUuid": "e9c4202f-2e0d-4552-b61a-0e9cdcdec10f",
           "width": 1047,
-          "x": -110,
-          "y": -22,
+          "x": -111,
+          "y": -21,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -534,8 +502,8 @@
           "locked": false,
           "name": "buildings_far",
           "persistentUuid": "c6f3e7f4-37ae-4326-9e90-d660f32e5b49",
-          "width": 1313,
-          "x": -111,
+          "width": 990,
+          "x": 0,
           "y": 225,
           "zOrder": 9,
           "numberProperties": [],
@@ -550,8 +518,8 @@
           "locked": false,
           "name": "buildings_close",
           "persistentUuid": "058d4bd5-e5bd-408d-bf89-4907f92399c4",
-          "width": 1321,
-          "x": -138,
+          "width": 1870,
+          "x": 0,
           "y": 180,
           "zOrder": 10,
           "numberProperties": [],
@@ -561,79 +529,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 149,
+          "height": 157,
           "layer": "background",
           "locked": false,
           "name": "trees",
           "persistentUuid": "98ca8d14-7e5c-4353-8cd9-5e62bf7271d2",
-          "width": 1040,
-          "x": -44,
-          "y": 242,
+          "width": 1230,
+          "x": 0,
+          "y": 246,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "highway",
-          "persistentUuid": "7b33507a-5626-4527-80f8-b8d4a3eea5d4",
-          "width": 0,
-          "x": 381,
-          "y": 303,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "highway",
-          "persistentUuid": "0d13f1ca-8a1c-486a-a339-d7ad8b87a6ce",
-          "width": 0,
-          "x": 508,
-          "y": 303,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "highway",
-          "persistentUuid": "345597d9-53be-410d-923d-33bca73165d7",
-          "width": 0,
-          "x": 635,
-          "y": 303,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "highway",
-          "persistentUuid": "9f88209d-a935-476d-966e-e3579dbee0cf",
-          "width": 0,
-          "x": 762,
-          "y": 303,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -645,9 +549,89 @@
           "layer": "",
           "locked": false,
           "name": "highway",
-          "persistentUuid": "1500e171-9e80-4381-bf61-37845ddf63df",
-          "width": 127,
-          "x": -127,
+          "persistentUuid": "a661a464-2c7b-4cf1-a275-78bf6b634c23",
+          "width": 125,
+          "x": 125,
+          "y": 303,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 102,
+          "layer": "",
+          "locked": false,
+          "name": "highway",
+          "persistentUuid": "74f50d6a-01ce-4800-b572-f1f49fa780d1",
+          "width": 125,
+          "x": 250,
+          "y": 303,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 102,
+          "layer": "",
+          "locked": false,
+          "name": "highway",
+          "persistentUuid": "7c455856-7229-415c-9e3b-9a450d01259b",
+          "width": 125,
+          "x": 375,
+          "y": 303,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 102,
+          "layer": "",
+          "locked": false,
+          "name": "highway",
+          "persistentUuid": "c16ef514-8b67-483e-8ac9-375d88892ca1",
+          "width": 125,
+          "x": 500,
+          "y": 303,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 102,
+          "layer": "",
+          "locked": false,
+          "name": "highway",
+          "persistentUuid": "c4000a41-7de0-4057-8be3-baf7abdb3968",
+          "width": 125,
+          "x": 625,
+          "y": 303,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 102,
+          "layer": "",
+          "locked": false,
+          "name": "highway",
+          "persistentUuid": "e6f97666-8f30-49fa-8b57-4cd318e03fb3",
+          "width": 125,
+          "x": 750,
           "y": 303,
           "zOrder": 1,
           "numberProperties": [],
@@ -662,7 +646,7 @@
           "tags": "",
           "texture": "broken_road_grad.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 127,
+          "width": 125,
           "variables": [],
           "behaviors": [
             {
@@ -685,7 +669,7 @@
           "tags": "",
           "texture": "highway.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 127,
+          "width": 125,
           "variables": [],
           "behaviors": [
             {
@@ -998,7 +982,7 @@
               "parameters": [
                 "speed",
                 "=",
-                "4"
+                "5"
               ],
               "subInstructions": []
             },
@@ -1025,55 +1009,6 @@
               "parameters": [
                 "musicFlag",
                 "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Every 2 seconds increase the speed",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "mod(TimeFromStart(), 2)",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "speed",
-                "+",
                 "1"
               ],
               "subInstructions": []
@@ -1295,9 +1230,9 @@
                 "value": "PosX"
               },
               "parameters": [
-                "buildings_far",
-                "<",
-                "-256"
+                "trees",
+                "=",
+                "-480\n\n"
               ],
               "subInstructions": []
             }
@@ -1309,7 +1244,7 @@
                 "value": "MettreX"
               },
               "parameters": [
-                "buildings_far",
+                "trees",
                 "=",
                 "0"
               ],
@@ -1330,8 +1265,8 @@
               },
               "parameters": [
                 "buildings_close",
-                "<",
-                "-256"
+                "=",
+                "-1120"
               ],
               "subInstructions": []
             }
@@ -1363,9 +1298,9 @@
                 "value": "PosX"
               },
               "parameters": [
-                "trees",
-                "<",
-                "-256"
+                "buildings_far",
+                "=",
+                "-240\n"
               ],
               "subInstructions": []
             }
@@ -1377,7 +1312,7 @@
                 "value": "MettreX"
               },
               "parameters": [
-                "trees",
+                "buildings_far",
                 "=",
                 "0"
               ],
@@ -1413,7 +1348,7 @@
               },
               "parameters": [
                 "highway",
-                "<",
+                "=",
                 "-highway.Width()"
               ],
               "subInstructions": []
@@ -1428,7 +1363,7 @@
               "parameters": [
                 "highway",
                 "=",
-                "800"
+                "750"
               ],
               "subInstructions": []
             }

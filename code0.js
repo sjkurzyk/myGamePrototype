@@ -109,31 +109,9 @@ gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.GameCode.condition0IsTrue_0.val) {
-{runtimeScene.getVariables().get("speed").setNumber(4);
+{runtimeScene.getVariables().get("speed").setNumber(5);
 }{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "s-highway.mp3", 1, true, 20, 1);
 }{runtimeScene.getVariables().get("musicFlag").setNumber(1);
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-gdjs.GameCode.condition0IsTrue_0.val = false;
-{
-{gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition0IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = (gdjs.evtTools.common.mod(gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene), 2) == 0);
-}
-}if (gdjs.GameCode.condition0IsTrue_0.val) {
-{runtimeScene.getVariables().get("speed").add(1);
 }}
 
 }
@@ -236,21 +214,21 @@ gdjs.copyArray(runtimeScene.getObjects("trees"), gdjs.GameCode.GDtreesObjects1);
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("buildings_far"), gdjs.GameCode.GDbuildings_95farObjects1);
+gdjs.copyArray(runtimeScene.getObjects("trees"), gdjs.GameCode.GDtreesObjects1);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDbuildings_95farObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDbuildings_95farObjects1[i].getX() < -(256) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDtreesObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDtreesObjects1[i].getX() == -(480) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDbuildings_95farObjects1[k] = gdjs.GameCode.GDbuildings_95farObjects1[i];
+        gdjs.GameCode.GDtreesObjects1[k] = gdjs.GameCode.GDtreesObjects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDbuildings_95farObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.GameCode.GDbuildings_95farObjects1 */
-{for(var i = 0, len = gdjs.GameCode.GDbuildings_95farObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDbuildings_95farObjects1[i].setX(0);
+gdjs.GameCode.GDtreesObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDtreesObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDtreesObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDtreesObjects1[i].setX(0);
 }
 }}
 
@@ -264,7 +242,7 @@ gdjs.copyArray(runtimeScene.getObjects("buildings_close"), gdjs.GameCode.GDbuild
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDbuildings_95closeObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDbuildings_95closeObjects1[i].getX() < -(256) ) {
+    if ( gdjs.GameCode.GDbuildings_95closeObjects1[i].getX() == -(1120) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
         gdjs.GameCode.GDbuildings_95closeObjects1[k] = gdjs.GameCode.GDbuildings_95closeObjects1[i];
         ++k;
@@ -282,21 +260,21 @@ gdjs.GameCode.GDbuildings_95closeObjects1.length = k;}if (gdjs.GameCode.conditio
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("trees"), gdjs.GameCode.GDtreesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("buildings_far"), gdjs.GameCode.GDbuildings_95farObjects1);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDtreesObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDtreesObjects1[i].getX() < -(256) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDbuildings_95farObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDbuildings_95farObjects1[i].getX() == -(240) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDtreesObjects1[k] = gdjs.GameCode.GDtreesObjects1[i];
+        gdjs.GameCode.GDbuildings_95farObjects1[k] = gdjs.GameCode.GDbuildings_95farObjects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDtreesObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.GameCode.GDtreesObjects1 */
-{for(var i = 0, len = gdjs.GameCode.GDtreesObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDtreesObjects1[i].setX(0);
+gdjs.GameCode.GDbuildings_95farObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDbuildings_95farObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDbuildings_95farObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDbuildings_95farObjects1[i].setX(0);
 }
 }}
 
@@ -317,7 +295,7 @@ gdjs.copyArray(runtimeScene.getObjects("highway"), gdjs.GameCode.GDhighwayObject
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDhighwayObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDhighwayObjects1[i].getX() < -((gdjs.GameCode.GDhighwayObjects1[i].getWidth())) ) {
+    if ( gdjs.GameCode.GDhighwayObjects1[i].getX() == -((gdjs.GameCode.GDhighwayObjects1[i].getWidth())) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
         gdjs.GameCode.GDhighwayObjects1[k] = gdjs.GameCode.GDhighwayObjects1[i];
         ++k;
@@ -326,7 +304,7 @@ for(var i = 0, k = 0, l = gdjs.GameCode.GDhighwayObjects1.length;i<l;++i) {
 gdjs.GameCode.GDhighwayObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDhighwayObjects1 */
 {for(var i = 0, len = gdjs.GameCode.GDhighwayObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDhighwayObjects1[i].setX(800);
+    gdjs.GameCode.GDhighwayObjects1[i].setX(750);
 }
 }}
 
