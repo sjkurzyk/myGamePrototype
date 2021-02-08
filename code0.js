@@ -37,6 +37,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegin
 }if (gdjs.GameCode.condition0IsTrue_0.val) {
 {runtimeScene.getVariables().get("speed").setNumber(4);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "difficultyTimer");
+}{gdjs.evtTools.sound.playMusic(runtimeScene, "s-highway.mp3", true, 20, 1);
 }}
 
 }
