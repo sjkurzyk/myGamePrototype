@@ -464,8 +464,22 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeS
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+{runtimeScene.getVariables().getFromIndex(5).setNumber(1);
+}}
+
+}
+
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 1;
 }if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("mainMenuPauseButton"), gdjs.GameCode.GDmainMenuPauseButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("obscureGame"), gdjs.GameCode.GDobscureGameObjects1);
 gdjs.copyArray(runtimeScene.getObjects("resumeButton"), gdjs.GameCode.GDresumeButtonObjects1);
@@ -477,6 +491,9 @@ gdjs.copyArray(runtimeScene.getObjects("resumeButton"), gdjs.GameCode.GDresumeBu
 }
 }{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDresumeButtonObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.GameCode.GDPlayerObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDPlayerObjects1[i].pauseAnimation();
 }
 }}
 
@@ -501,6 +518,7 @@ gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased
 }}
 }
 if (gdjs.GameCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("mainMenuPauseButton"), gdjs.GameCode.GDmainMenuPauseButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("obscureGame"), gdjs.GameCode.GDobscureGameObjects1);
 /* Reuse gdjs.GameCode.GDresumeButtonObjects1 */
@@ -513,6 +531,9 @@ gdjs.copyArray(runtimeScene.getObjects("obscureGame"), gdjs.GameCode.GDobscureGa
 }
 }{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDresumeButtonObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.GameCode.GDPlayerObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDPlayerObjects1[i].playAnimation();
 }
 }}
 

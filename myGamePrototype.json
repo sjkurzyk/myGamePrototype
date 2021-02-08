@@ -1898,7 +1898,7 @@
           "variables": [],
           "behaviors": [],
           "content": {
-            "text": "Space → Jump\nM     → Music\nP     → Pause\n\n",
+            "text": "Space → Jump\nM     → Music\nP/Esc → Pause\n\n",
             "opacity": 255,
             "fontSize": 40,
             "visible": true,
@@ -2941,6 +2941,39 @@
             {
               "type": {
                 "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "pauseFlag",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "VarScene"
               },
               "parameters": [
@@ -2982,6 +3015,16 @@
               "parameters": [
                 "resumeButton",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "Player"
               ],
               "subInstructions": []
             }
@@ -3070,6 +3113,16 @@
               },
               "parameters": [
                 "resumeButton"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Player"
               ],
               "subInstructions": []
             }
