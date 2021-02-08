@@ -425,6 +425,222 @@
         "name": "spr_StrikerRun_strip.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/highway.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\highway.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/broken_road_grad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\broken_road_grad.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/highway-sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\highway-sky.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/highway-trees.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\highway-trees.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/highway-far-buildings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\highway-far-buildings.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/highway-builddings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\highway-builddings.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0000_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0000_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0001_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0001_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0002_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0002_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0003_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0003_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0004_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0004_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0005_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0005_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0006_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0006_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RUN/Anim_Run_Frame_0007_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RUN\\Anim_Run_Frame_0007_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0000_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0000_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0001_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0001_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0002_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0002_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0003_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0003_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0004_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0004_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0005_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0005_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0006_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0006_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0007_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0007_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0008_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0008_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JUMP/Anim_Jump_Frame_0009_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JUMP\\Anim_Jump_Frame_0009_10.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -502,14 +718,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 156,
           "layer": "",
           "locked": false,
           "name": "Player",
           "persistentUuid": "2fd63782-1ed0-46dc-903e-289eeae9cf5f",
-          "width": 58,
-          "x": 156,
-          "y": 236,
+          "width": 156,
+          "x": 46,
+          "y": 235,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -713,7 +929,7 @@
           "height": 102,
           "name": "highway_hole",
           "tags": "",
-          "texture": "broken_road_grad.png",
+          "texture": "assets\\broken_road_grad.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 125,
           "variables": [],
@@ -736,7 +952,7 @@
           "height": 102,
           "name": "highway",
           "tags": "",
-          "texture": "highway.png",
+          "texture": "assets\\highway.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 125,
           "variables": [],
@@ -749,9 +965,9 @@
             {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0,
               "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
+              "platformType": "NormalPlatform"
             }
           ]
         },
@@ -789,7 +1005,296 @@
                 {
                   "looping": true,
                   "timeBetweenFrames": 0.1,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0000_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0001_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0002_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0003_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0004_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0005_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0006_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RUN\\Anim_Run_Frame_0007_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -798,9 +1303,370 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.07,
-                  "sprites": []
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0000_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0001_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0002_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0003_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0004_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0005_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0006_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0007_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0008_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\JUMP\\Anim_Jump_Frame_0009_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -810,7 +1676,7 @@
           "height": 32,
           "name": "buildings_far",
           "tags": "",
-          "texture": "highway-far-buildings.png",
+          "texture": "assets\\highway-far-buildings.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -820,7 +1686,7 @@
           "height": 32,
           "name": "buildings_close",
           "tags": "",
-          "texture": "highway-builddings.png",
+          "texture": "assets\\highway-builddings.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -830,7 +1696,7 @@
           "height": 100,
           "name": "trees_foreground",
           "tags": "",
-          "texture": "highway-trees.png",
+          "texture": "assets\\highway-trees.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1230,
           "variables": [],
@@ -840,7 +1706,7 @@
           "height": 157,
           "name": "trees",
           "tags": "",
-          "texture": "highway-trees.png",
+          "texture": "assets\\highway-trees.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1230,
           "variables": [],
@@ -853,31 +1719,11 @@
           "name": "background",
           "rightMargin": 0,
           "tags": "",
-          "texture": "highway-sky.png",
+          "texture": "assets\\highway-sky.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
           "width": 400,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "height": 32,
-          "name": "floor_despawner",
-          "tags": "",
-          "texture": "NewFile-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "height": 32,
-          "name": "floor_spawner",
-          "tags": "",
-          "texture": "NewFile-1-0.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
           "variables": [],
           "behaviors": []
         },
