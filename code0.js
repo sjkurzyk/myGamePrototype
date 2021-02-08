@@ -98,15 +98,28 @@ if (gdjs.GameCode.condition1IsTrue_0.val) {
 {
 
 
+
+}
+
+
+{
+
+
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.GameCode.condition0IsTrue_0.val) {
 {runtimeScene.getVariables().get("speed").setNumber(4);
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "difficultyTimer");
 }{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "s-highway.mp3", 1, true, 20, 1);
 }{runtimeScene.getVariables().get("musicFlag").setNumber(1);
 }}
+
+}
+
+
+{
+
+
 
 }
 
@@ -129,6 +142,13 @@ gdjs.GameCode.conditionTrue_1.val = (gdjs.evtTools.common.mod(gdjs.evtTools.runt
 {
 
 
+
+}
+
+
+{
+
+
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
@@ -141,6 +161,13 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects1
     gdjs.GameCode.GDPlayerObjects1[i].setAnimation(1);
 }
 }}
+
+}
+
+
+{
+
+
 
 }
 
@@ -167,6 +194,13 @@ gdjs.GameCode.GDPlayerObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.
     gdjs.GameCode.GDPlayerObjects1[i].setX(gdjs.GameCode.GDPlayerObjects1[i].getX() + (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("speed"))));
 }
 }}
+
+}
+
+
+{
+
+
 
 }
 
@@ -265,6 +299,13 @@ gdjs.GameCode.GDtreesObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.v
     gdjs.GameCode.GDtreesObjects1[i].setX(0);
 }
 }}
+
+}
+
+
+{
+
+
 
 }
 
