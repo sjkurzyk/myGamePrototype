@@ -199,7 +199,7 @@ gdjs.copyArray(runtimeScene.getObjects("trees"), gdjs.GameCode.GDtreesObjects1);
     gdjs.GameCode.GDhighway_95holeObjects1[i].setX(gdjs.GameCode.GDhighway_95holeObjects1[i].getX() - (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("speed"))));
 }
 }{for(var i = 0, len = gdjs.GameCode.GDtreesObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDtreesObjects1[i].setX(gdjs.GameCode.GDtreesObjects1[i].getX() - (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("speed"))));
+    gdjs.GameCode.GDtreesObjects1[i].setX(gdjs.GameCode.GDtreesObjects1[i].getX() - (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("speed")) * 0.9));
 }
 }{for(var i = 0, len = gdjs.GameCode.GDbuildings_95closeObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDbuildings_95closeObjects1[i].setX(gdjs.GameCode.GDbuildings_95closeObjects1[i].getX() - (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("speed")) / 8));
@@ -219,7 +219,7 @@ gdjs.copyArray(runtimeScene.getObjects("trees"), gdjs.GameCode.GDtreesObjects1);
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDtreesObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDtreesObjects1[i].getX() == -(480) ) {
+    if ( gdjs.GameCode.GDtreesObjects1[i].getX() <= -(480) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
         gdjs.GameCode.GDtreesObjects1[k] = gdjs.GameCode.GDtreesObjects1[i];
         ++k;
@@ -242,7 +242,7 @@ gdjs.copyArray(runtimeScene.getObjects("buildings_close"), gdjs.GameCode.GDbuild
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDbuildings_95closeObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDbuildings_95closeObjects1[i].getX() == -(1120) ) {
+    if ( gdjs.GameCode.GDbuildings_95closeObjects1[i].getX() <= -(1120) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
         gdjs.GameCode.GDbuildings_95closeObjects1[k] = gdjs.GameCode.GDbuildings_95closeObjects1[i];
         ++k;
@@ -265,7 +265,7 @@ gdjs.copyArray(runtimeScene.getObjects("buildings_far"), gdjs.GameCode.GDbuildin
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDbuildings_95farObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDbuildings_95farObjects1[i].getX() == -(240) ) {
+    if ( gdjs.GameCode.GDbuildings_95farObjects1[i].getX() <= -(240) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
         gdjs.GameCode.GDbuildings_95farObjects1[k] = gdjs.GameCode.GDbuildings_95farObjects1[i];
         ++k;

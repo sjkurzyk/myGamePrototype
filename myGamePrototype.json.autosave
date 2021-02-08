@@ -441,7 +441,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.7
+        "zoomFactor": 0.43
       },
       "objectsGroups": [],
       "variables": [],
@@ -1188,7 +1188,7 @@
               "parameters": [
                 "trees",
                 "-",
-                "Variable(speed)"
+                "Variable(speed)*0.9"
               ],
               "subInstructions": []
             },
@@ -1231,7 +1231,7 @@
               },
               "parameters": [
                 "trees",
-                "=",
+                "<=",
                 "-480\n\n"
               ],
               "subInstructions": []
@@ -1265,7 +1265,7 @@
               },
               "parameters": [
                 "buildings_close",
-                "=",
+                "<=",
                 "-1120"
               ],
               "subInstructions": []
@@ -1299,7 +1299,7 @@
               },
               "parameters": [
                 "buildings_far",
-                "=",
+                "<=",
                 "-240\n"
               ],
               "subInstructions": []
