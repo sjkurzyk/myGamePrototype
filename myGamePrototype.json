@@ -441,7 +441,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.34
+        "zoomFactor": 0.4
       },
       "objectsGroups": [],
       "variables": [],
@@ -634,38 +634,6 @@
           "x": 762,
           "y": 303,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "locked": false,
-          "name": "floor_despawner",
-          "persistentUuid": "265f6433-104c-4f13-9a98-e9e2d0832eec",
-          "width": 30,
-          "x": 12,
-          "y": 244,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "locked": false,
-          "name": "floor_spawner",
-          "persistentUuid": "17e4dc53-babb-43f9-a941-eb6ec768a219",
-          "width": 30,
-          "x": 764,
-          "y": 240,
-          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1446,7 +1414,7 @@
               "parameters": [
                 "highway",
                 "<",
-                "floor_despawner.X()"
+                "-highway.Width()"
               ],
               "subInstructions": []
             }
@@ -1460,7 +1428,7 @@
               "parameters": [
                 "highway",
                 "=",
-                "floor_spawner.X()"
+                "800"
               ],
               "subInstructions": []
             }
@@ -1469,7 +1437,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

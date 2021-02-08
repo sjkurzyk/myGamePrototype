@@ -312,23 +312,21 @@ gdjs.GameCode.GDtreesObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.v
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("floor_despawner"), gdjs.GameCode.GDfloor_95despawnerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("highway"), gdjs.GameCode.GDhighwayObjects1);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDhighwayObjects1.length;i<l;++i) {
-    if ( gdjs.GameCode.GDhighwayObjects1[i].getX() < (( gdjs.GameCode.GDfloor_95despawnerObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDfloor_95despawnerObjects1[0].getX()) ) {
+    if ( gdjs.GameCode.GDhighwayObjects1[i].getX() < -((gdjs.GameCode.GDhighwayObjects1[i].getWidth())) ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
         gdjs.GameCode.GDhighwayObjects1[k] = gdjs.GameCode.GDhighwayObjects1[i];
         ++k;
     }
 }
 gdjs.GameCode.GDhighwayObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("floor_spawner"), gdjs.GameCode.GDfloor_95spawnerObjects1);
 /* Reuse gdjs.GameCode.GDhighwayObjects1 */
 {for(var i = 0, len = gdjs.GameCode.GDhighwayObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDhighwayObjects1[i].setX((( gdjs.GameCode.GDfloor_95spawnerObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDfloor_95spawnerObjects1[0].getX()));
+    gdjs.GameCode.GDhighwayObjects1[i].setX(800);
 }
 }}
 
@@ -345,7 +343,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtim
 }if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition1IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7266716);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7091500);
 }
 }}
 if (gdjs.GameCode.condition1IsTrue_0.val) {

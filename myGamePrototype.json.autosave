@@ -441,7 +441,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.34
+        "zoomFactor": 0.4
       },
       "objectsGroups": [],
       "variables": [],
@@ -634,38 +634,6 @@
           "x": 762,
           "y": 303,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "locked": false,
-          "name": "floor_despawner",
-          "persistentUuid": "265f6433-104c-4f13-9a98-e9e2d0832eec",
-          "width": 30,
-          "x": 12,
-          "y": 244,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "locked": false,
-          "name": "floor_spawner",
-          "persistentUuid": "17e4dc53-babb-43f9-a941-eb6ec768a219",
-          "width": 30,
-          "x": 764,
-          "y": 240,
-          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -993,6 +961,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Init speed and music at the start of the scene",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1016,17 +999,6 @@
                 "speed",
                 "=",
                 "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"difficultyTimer\""
               ],
               "subInstructions": []
             },
@@ -1063,6 +1035,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Every 2 seconds increase the speed",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1093,6 +1080,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "When space is pressed, jump",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -1141,6 +1143,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "When touching floor, set animation to run and move opposite to floor",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1182,6 +1199,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Every frame, move floor by speed, move background by increasingly small fractions of speed to add parallax",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -1357,6 +1389,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "When a floor hits the despawner, move it to the spawner.",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1367,7 +1414,7 @@
               "parameters": [
                 "highway",
                 "<",
-                "floor_despawner.X()"
+                "-highway.Width()"
               ],
               "subInstructions": []
             }
@@ -1381,7 +1428,7 @@
               "parameters": [
                 "highway",
                 "=",
-                "floor_spawner.X()"
+                "800"
               ],
               "subInstructions": []
             }
@@ -1390,7 +1437,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
