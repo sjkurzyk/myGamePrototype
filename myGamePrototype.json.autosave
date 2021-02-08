@@ -16,7 +16,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Project",
+    "name": "myGamePrototype",
     "author": "",
     "windowWidth": 750,
     "windowHeight": 600,
@@ -117,240 +117,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red player_dead.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_dead.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_dead.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_duck.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_duck.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_duck.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_fall.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_fall.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_fall.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_hit.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_hit.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_hit.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_roll.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_roll.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_roll.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_stand.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_stand.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_stand.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_swim_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_swim_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_swim_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_swim_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_swim_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_swim_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_switch_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_switch_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_switch_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_switch_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_switch_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_switch_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_up_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_up_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_up_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_up_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_up_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_up_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_up_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_up_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_up_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_4.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_5.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "highway-sky.png",
         "kind": "image",
         "metadata": "",
@@ -386,24 +152,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "s-highway.mp3",
         "kind": "audio",
         "metadata": "",
@@ -416,15 +164,6 @@
         "metadata": "",
         "name": "assets\\FSEX300.ttf",
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "spr_StrikerRun_strip.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "spr_StrikerRun_strip.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -2984,6 +2723,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "settingsText",
+          "persistentUuid": "a98a7414-395d-4d8a-9c61-112934bc021e",
+          "width": 0,
+          "x": 164,
+          "y": 285,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3012,6 +2767,23 @@
             "text": "Back",
             "opacity": 255,
             "fontSize": 60,
+            "visible": true,
+            "color": "#000000",
+            "fontFamily": "FSEX300.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "name": "settingsText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "text": "SETTINGS",
+            "opacity": 255,
+            "fontSize": 100,
             "visible": true,
             "color": "#000000",
             "fontFamily": "FSEX300.ttf",
@@ -3060,7 +2832,7 @@
               "parameters": [
                 "",
                 "\"Main Menu\"",
-                ""
+                "yes"
               ],
               "subInstructions": []
             }
@@ -3154,6 +2926,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "creditsText",
+          "persistentUuid": "b30bf1b5-9b8c-4e60-bad0-f5b0d14a796c",
+          "width": 0,
+          "x": 183,
+          "y": 263,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3185,6 +2973,23 @@
             "visible": true,
             "color": "#000000",
             "fontFamily": "assets\\FSEX300.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "name": "creditsText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "text": "CREDITS",
+            "opacity": 255,
+            "fontSize": 100,
+            "visible": true,
+            "color": "#000000",
+            "fontFamily": "FSEX300.ttf",
             "align": "center",
             "wordWrap": true
           }
@@ -3230,7 +3035,7 @@
               "parameters": [
                 "",
                 "\"Main Menu\"",
-                ""
+                "yes"
               ],
               "subInstructions": []
             }

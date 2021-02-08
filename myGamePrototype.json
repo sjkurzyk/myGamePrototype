@@ -16,7 +16,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Project",
+    "name": "myGamePrototype",
     "author": "",
     "windowWidth": 750,
     "windowHeight": 600,
@@ -117,240 +117,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red player_dead.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_dead.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_dead.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_duck.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_duck.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_duck.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_fall.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_fall.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_fall.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_hit.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_hit.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_hit.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_roll.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_roll.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_roll.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_stand.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_stand.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_stand.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_swim_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_swim_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_swim_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_swim_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_swim_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_swim_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_switch_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_switch_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_switch_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_switch_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_switch_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_switch_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_up_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_up_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_up_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_up_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_up_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_up_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_up_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_up_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_up_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_4.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red player_walk_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red player_walk_5.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Players/Player Red/Red player_walk_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "highway-sky.png",
         "kind": "image",
         "metadata": "",
@@ -386,24 +152,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "s-highway.mp3",
         "kind": "audio",
         "metadata": "",
@@ -416,15 +164,6 @@
         "metadata": "",
         "name": "assets\\FSEX300.ttf",
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "spr_StrikerRun_strip.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "spr_StrikerRun_strip.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -3093,7 +2832,7 @@
               "parameters": [
                 "",
                 "\"Main Menu\"",
-                ""
+                "yes"
               ],
               "subInstructions": []
             }
@@ -3296,7 +3035,7 @@
               "parameters": [
                 "",
                 "\"Main Menu\"",
-                ""
+                "yes"
               ],
               "subInstructions": []
             }
@@ -3325,17 +3064,6 @@
               "width": 0
             }
           ],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
-          "followBaseLayerCamera": true,
-          "isLightingLayer": true,
-          "name": "Lighting",
-          "visibility": true,
-          "cameras": [],
           "effects": []
         }
       ],
