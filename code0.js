@@ -114,7 +114,7 @@ gdjs.copyArray(runtimeScene.getObjects("buildings_far"), gdjs.GameCode.GDbuildin
 gdjs.copyArray(runtimeScene.getObjects("trees"), gdjs.GameCode.GDtreesObjects1);
 gdjs.copyArray(runtimeScene.getObjects("trees_foreground"), gdjs.GameCode.GDtrees_95foregroundObjects1);
 {runtimeScene.getVariables().get("speed").setNumber(5);
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "s-highway.mp3", 1, true, 20, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\Race-to-Mars.ogg", 1, true, 10, 1);
 }{runtimeScene.getVariables().get("musicFlag").setNumber(1);
 }{runtimeScene.getVariables().getFromIndex(0).setNumber(5);
 }{runtimeScene.getVariables().getFromIndex(4).setNumber(40);
