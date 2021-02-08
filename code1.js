@@ -38,17 +38,18 @@ gdjs.GameCode.GDmainMenuPauseButtonObjects3= [];
 gdjs.GameCode.GDresumeButtonObjects1= [];
 gdjs.GameCode.GDresumeButtonObjects2= [];
 gdjs.GameCode.GDresumeButtonObjects3= [];
+gdjs.GameCode.GDscoreLabelObjects1= [];
+gdjs.GameCode.GDscoreLabelObjects2= [];
+gdjs.GameCode.GDscoreLabelObjects3= [];
 
 gdjs.GameCode.conditionTrue_0 = {val:false};
 gdjs.GameCode.condition0IsTrue_0 = {val:false};
 gdjs.GameCode.condition1IsTrue_0 = {val:false};
 gdjs.GameCode.condition2IsTrue_0 = {val:false};
-gdjs.GameCode.condition3IsTrue_0 = {val:false};
 gdjs.GameCode.conditionTrue_1 = {val:false};
 gdjs.GameCode.condition0IsTrue_1 = {val:false};
 gdjs.GameCode.condition1IsTrue_1 = {val:false};
 gdjs.GameCode.condition2IsTrue_1 = {val:false};
-gdjs.GameCode.condition3IsTrue_1 = {val:false};
 
 
 gdjs.GameCode.eventsList0 = function(runtimeScene) {
@@ -107,7 +108,69 @@ if (gdjs.GameCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuButtonObjects1Objects = Hashtable.newFrom({"mainMenuButton": gdjs.GameCode.GDmainMenuButtonObjects1});gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDresumeButtonObjects1Objects = Hashtable.newFrom({"resumeButton": gdjs.GameCode.GDresumeButtonObjects1});gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuPauseButtonObjects1Objects = Hashtable.newFrom({"mainMenuPauseButton": gdjs.GameCode.GDmainMenuPauseButtonObjects1});gdjs.GameCode.eventsList1 = function(runtimeScene) {
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuButtonObjects1Objects = Hashtable.newFrom({"mainMenuButton": gdjs.GameCode.GDmainMenuButtonObjects1});gdjs.GameCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", true);
+}}
+
+}
+
+
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuButtonObjects1Objects = Hashtable.newFrom({"mainMenuButton": gdjs.GameCode.GDmainMenuButtonObjects1});gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDresumeButtonObjects1Objects = Hashtable.newFrom({"resumeButton": gdjs.GameCode.GDresumeButtonObjects1});gdjs.GameCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects1);
+gdjs.copyArray(runtimeScene.getObjects("mainMenuPauseButton"), gdjs.GameCode.GDmainMenuPauseButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("obscureGame"), gdjs.GameCode.GDobscureGameObjects1);
+/* Reuse gdjs.GameCode.GDresumeButtonObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDobscureGameObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDobscureGameObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.GameCode.GDmainMenuPauseButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDmainMenuPauseButtonObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDresumeButtonObjects1[i].hide();
+}
+}{runtimeScene.getVariables().getFromIndex(5).setNumber(0);
+}{for(var i = 0, len = gdjs.GameCode.GDPlayerObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDPlayerObjects1[i].playAnimation();
+}
+}}
+
+}
+
+
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDresumeButtonObjects1Objects = Hashtable.newFrom({"resumeButton": gdjs.GameCode.GDresumeButtonObjects1});gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuPauseButtonObjects1Objects = Hashtable.newFrom({"mainMenuPauseButton": gdjs.GameCode.GDmainMenuPauseButtonObjects1});gdjs.GameCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
+}{runtimeScene.getVariables().getFromIndex(5).setNumber(0);
+}}
+
+}
+
+
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuPauseButtonObjects1Objects = Hashtable.newFrom({"mainMenuPauseButton": gdjs.GameCode.GDmainMenuPauseButtonObjects1});gdjs.GameCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -160,6 +223,8 @@ gdjs.copyArray(runtimeScene.getObjects("trees_foreground"), gdjs.GameCode.GDtree
 }{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDresumeButtonObjects1[i].hide();
 }
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(0);
 }}
 
 }
@@ -237,6 +302,28 @@ if (gdjs.GameCode.condition1IsTrue_0.val) {
 {
 
 
+
+}
+
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 0;
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
+}}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("scoreLabel"), gdjs.GameCode.GDscoreLabelObjects1);
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(10);
+}{for(var i = 0, len = gdjs.GameCode.GDscoreLabelObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDscoreLabelObjects1[i].setBBText("Score: " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
+}
+}}
 
 }
 
@@ -409,7 +496,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtim
 }if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition1IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7349724);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7995428);
 }
 }}
 if (gdjs.GameCode.condition1IsTrue_0.val) {
@@ -428,20 +515,50 @@ gdjs.copyArray(runtimeScene.getObjects("mainMenuButton"), gdjs.GameCode.GDmainMe
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
-gdjs.GameCode.condition2IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuButtonObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
-gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
-{
-gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
 }}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDmainMenuButtonObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDmainMenuButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDmainMenuButtonObjects1[i].setFontSize(45);
 }
-if (gdjs.GameCode.condition2IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", true);
+}
+{ //Subevents
+gdjs.GameCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("mainMenuButton"), gdjs.GameCode.GDmainMenuButtonObjects1);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuButtonObjects1Objects, runtimeScene, true, true);
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
 }}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDmainMenuButtonObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDmainMenuButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDmainMenuButtonObjects1[i].setFontSize(40);
+}
+}}
+
+}
+
+
+{
+
+
 
 }
 
@@ -450,9 +567,14 @@ if (gdjs.GameCode.condition2IsTrue_0.val) {
 
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "p");
-}if (gdjs.GameCode.condition0IsTrue_0.val) {
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
+}}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(5).setNumber(1);
 }}
 
@@ -463,9 +585,14 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeS
 
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
-}if (gdjs.GameCode.condition0IsTrue_0.val) {
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
+}}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(5).setNumber(1);
 }}
 
@@ -506,34 +633,41 @@ gdjs.copyArray(runtimeScene.getObjects("resumeButton"), gdjs.GameCode.GDresumeBu
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
-gdjs.GameCode.condition2IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 1;
 }if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
 gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDresumeButtonObjects1Objects, runtimeScene, true, false);
-}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
-{
-gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }}
-}
-if (gdjs.GameCode.condition2IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects1);
-gdjs.copyArray(runtimeScene.getObjects("mainMenuPauseButton"), gdjs.GameCode.GDmainMenuPauseButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("obscureGame"), gdjs.GameCode.GDobscureGameObjects1);
+if (gdjs.GameCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDresumeButtonObjects1 */
-{runtimeScene.getVariables().getFromIndex(5).setNumber(0);
-}{for(var i = 0, len = gdjs.GameCode.GDobscureGameObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDobscureGameObjects1[i].hide();
+{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDresumeButtonObjects1[i].setFontSize(75);
 }
-}{for(var i = 0, len = gdjs.GameCode.GDmainMenuPauseButtonObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDmainMenuPauseButtonObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDresumeButtonObjects1[i].hide();
+{ //Subevents
+gdjs.GameCode.eventsList2(runtimeScene);} //End of subevents
 }
-}{for(var i = 0, len = gdjs.GameCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDPlayerObjects1[i].playAnimation();
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("resumeButton"), gdjs.GameCode.GDresumeButtonObjects1);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDresumeButtonObjects1Objects, runtimeScene, true, true);
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 1;
+}}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDresumeButtonObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDresumeButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDresumeButtonObjects1[i].setFontSize(60);
 }
 }}
 
@@ -546,20 +680,63 @@ gdjs.copyArray(runtimeScene.getObjects("mainMenuPauseButton"), gdjs.GameCode.GDm
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
-gdjs.GameCode.condition2IsTrue_0.val = false;
 {
 gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 1;
 }if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
 gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuPauseButtonObjects1Objects, runtimeScene, true, false);
-}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
-{
-gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDmainMenuPauseButtonObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDmainMenuPauseButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDmainMenuPauseButtonObjects1[i].setFontSize(75);
 }
-if (gdjs.GameCode.condition2IsTrue_0.val) {
-{runtimeScene.getVariables().getFromIndex(5).setNumber(0);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
+}
+{ //Subevents
+gdjs.GameCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("mainMenuPauseButton"), gdjs.GameCode.GDmainMenuPauseButtonObjects1);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 1;
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmainMenuPauseButtonObjects1Objects, runtimeScene, true, true);
+}}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDmainMenuPauseButtonObjects1 */
+{for(var i = 0, len = gdjs.GameCode.GDmainMenuPauseButtonObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDmainMenuPauseButtonObjects1[i].setFontSize(60);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects1);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDPlayerObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDPlayerObjects1[i].getY() > 400 ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDPlayerObjects1[k] = gdjs.GameCode.GDPlayerObjects1[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDPlayerObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Game Over", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(1);
 }}
 
 }
@@ -609,8 +786,11 @@ gdjs.GameCode.GDmainMenuPauseButtonObjects3.length = 0;
 gdjs.GameCode.GDresumeButtonObjects1.length = 0;
 gdjs.GameCode.GDresumeButtonObjects2.length = 0;
 gdjs.GameCode.GDresumeButtonObjects3.length = 0;
+gdjs.GameCode.GDscoreLabelObjects1.length = 0;
+gdjs.GameCode.GDscoreLabelObjects2.length = 0;
+gdjs.GameCode.GDscoreLabelObjects3.length = 0;
 
-gdjs.GameCode.eventsList1(runtimeScene);
+gdjs.GameCode.eventsList4(runtimeScene);
 return;
 
 }
