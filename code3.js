@@ -5,6 +5,12 @@ gdjs.CreditsCode.GDbackButtonObjects1= [];
 gdjs.CreditsCode.GDbackButtonObjects2= [];
 gdjs.CreditsCode.GDcreditsTextObjects1= [];
 gdjs.CreditsCode.GDcreditsTextObjects2= [];
+gdjs.CreditsCode.GDmusicLabelObjects1= [];
+gdjs.CreditsCode.GDmusicLabelObjects2= [];
+gdjs.CreditsCode.GDartLabelObjects1= [];
+gdjs.CreditsCode.GDartLabelObjects2= [];
+gdjs.CreditsCode.GDdevLabelObjects1= [];
+gdjs.CreditsCode.GDdevLabelObjects2= [];
 
 gdjs.CreditsCode.conditionTrue_0 = {val:false};
 gdjs.CreditsCode.condition0IsTrue_0 = {val:false};
@@ -76,6 +82,12 @@ gdjs.CreditsCode.GDbackButtonObjects1.length = 0;
 gdjs.CreditsCode.GDbackButtonObjects2.length = 0;
 gdjs.CreditsCode.GDcreditsTextObjects1.length = 0;
 gdjs.CreditsCode.GDcreditsTextObjects2.length = 0;
+gdjs.CreditsCode.GDmusicLabelObjects1.length = 0;
+gdjs.CreditsCode.GDmusicLabelObjects2.length = 0;
+gdjs.CreditsCode.GDartLabelObjects1.length = 0;
+gdjs.CreditsCode.GDartLabelObjects2.length = 0;
+gdjs.CreditsCode.GDdevLabelObjects1.length = 0;
+gdjs.CreditsCode.GDdevLabelObjects2.length = 0;
 
 gdjs.CreditsCode.eventsList1(runtimeScene);
 return;
